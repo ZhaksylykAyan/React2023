@@ -1,10 +1,8 @@
-import React, {useEffect, useRef, useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import './Quiz.css';
-import { data } from '../data';
-import {arrayUnion, doc, onSnapshot, updateDoc, deleteDoc} from "firebase/firestore";
+import { doc, onSnapshot} from "firebase/firestore";
 import {db} from "../firebase";
 import {UserAuth} from "../context/AuthContext";
-import {Button} from "antd";
 import {useNavigate} from "react-router-dom";
 
 
