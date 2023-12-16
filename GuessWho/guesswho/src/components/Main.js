@@ -18,7 +18,7 @@ const Main = () => {
 
     const handleQuiz = async () =>{
         try{
-            navigate('/Quiz')
+            navigate('/Instruction')
         }catch (error){
             console.log(error)
         }
@@ -34,7 +34,7 @@ const Main = () => {
                 <div className='absolute w-full top-[20%] p-4 md:p-8'>
                     <h1 className='text-3xl md:text-5xl font-bold'>{movie?.title}</h1>
                     <div className='my-4'>
-                        <Button onClick={handleQuiz} className='border bg-gray-300 text-black border-gray-300 py-2 px-5' type='primary'>Go To
+                        <Button onClick={handleQuiz} className='border bg-gray-300 text-black border-gray-300 px-5' type='primary'>Go To
                             Quiz</Button>
                         {/*<Button className='border text-white border-gray-300 py-2 px-5 ml-4' type='primary'>Do Quiz*/}
                         {/*    Later</Button>*/}
