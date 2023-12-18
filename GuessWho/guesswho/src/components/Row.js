@@ -39,6 +39,7 @@ const Row = ({title, fetchURL, RowID}) => {
                                 size={40}/>
             </div>
         </>
+
     )
 }
 
