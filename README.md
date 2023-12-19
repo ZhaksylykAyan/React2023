@@ -1,7 +1,7 @@
 # Documentation for GuessWho
 ## Overview
 This document describes the key features and functionalities of the GuessWho. This application is designed for movie enthusiasts who enjoy testing their knowledge of popular films. Built with React, it offers an interactive and engaging user experience.
-Features
+## Features
 ### 1. User Registration and Authentication
 * Registration: Users can create an account using their email address.
 * Login: Secure login functionality with password protection.
